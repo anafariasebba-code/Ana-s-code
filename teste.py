@@ -2,10 +2,9 @@ import streamlit as st
 
 # --- Configuração da Página ---
 st.set_page_config(
-    page_title="Calculadora de IMC (Iniciante)",
+    page_title="Calculadora de IMC",
     page_icon="⚖️",
-    layout="centered"
-)
+    layout="centered")
 
 # --- Título e Descrição ---
 st.title("⚖️ Calculadora de IMC Simples")
@@ -33,8 +32,7 @@ with st.container():
         max_value=250, 
         value=175, 
         step=1,
-        help="Use a alavanca para ajustar sua altura em centímetros."
-    )
+        help="Use a alavanca para ajustar sua altura em centímetros." )
 
 # --- Lógica e Cálculo ---
 if st.button("Calcular IMC", type="primary"):

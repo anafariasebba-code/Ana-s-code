@@ -92,4 +92,4 @@ if st.button("Calcular IMC", type="primary"):
 # --- Sidebar (Para mostrar funcionalidade avançada) ---
 st.sidebar.title("Sobre o App")
 st.sidebar.info(
-    "Meu primeiro app no Streamlit"
+    "Meu primeiro app no Streamlit")

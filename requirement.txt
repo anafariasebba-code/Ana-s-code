@@ -1,0 +1,8 @@
+streamlit>=1.20
+pandas
+gnews
+spacy>=3.0
+pt-core-news-sm @ https://github.com/explosion/spacy-models/releases/download/pt_core_news_sm-3.5.0/pt_core_news_sm-3.5.0-py3-none-any.whl
+wordcloud
+matplotlib
+requests
